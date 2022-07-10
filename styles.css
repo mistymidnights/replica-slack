@@ -1,0 +1,348 @@
+*{
+    margin: 0;
+    font-family: Roboto;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav div img{
+    height: 25px;
+}
+
+header{
+    padding-top: 32px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 60px;
+    background-color: #f6efe8;
+}
+
+.index{
+    padding: 30px;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.index p{
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+p{
+    font-size: 16px;
+}
+
+.pruebalo{
+    background-color: #611f69;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    margin: 5px;
+    padding: 10px;
+    width: 100%;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.google img{
+    height: 45px;
+    margin: 20px;
+    margin-left: 0;
+    border-radius: 3px;
+}
+
+.google{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.google button{
+    display: flex;
+    align-items: center;
+    background-color: #4285f4;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+    height: 60px;
+    margin-bottom: 40px;
+}
+
+.pruebalo:hover{
+    background-color: #400d40;
+}
+
+.hero{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.hero img{
+    height: 200px;
+    margin-bottom: 70px;
+}
+
+.principal{
+    background-color: #f6efe8;
+}
+
+.marcas{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.marcas img{
+    height: 30px;
+    margin: 10px;
+}
+
+.rowuno, .rowdos, .rowtres{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+}
+
+.contenedor .contenedor{
+    background-color: #f6efe8;
+}
+
+.article{
+    padding: 20px;
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.article h1{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.article p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.article a{
+    font-size: 17px;
+    font-style: none;
+    text-decoration: none;
+    font-weight: bold;
+    color: #1264ac;
+    margin-bottom: 20px;
+}
+
+video{
+    width: 100%;
+    margin-right: 0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-size: 14px;
+}
+
+.subtitle{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+.article-dos h1{
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 40px;
+}
+
+.article-dos{
+    width: 100%;
+    background-color: #f6efe8;
+    padding-top: 50px;
+}
+
+.article-dos h2{
+    font-size: 16px;
+    padding: 10px 0px 10px 0px;
+}
+
+.article-dos-container{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 30px;
+}
+
+.uno, .dos, .tres{
+    margin-bottom: 50px;
+}
+
+.uno, .dos, .tres{
+    margin-left: 20px;
+}
+
+
+.article-dos-container p{
+    font-size: 18px;
+}
+
+.uno p a{
+    color: #1264ac;
+}
+
+.image-container-final{
+    width: 100%;
+    background-color: #f6efe8;
+    display: flex;
+    justify-content: center;
+}
+
+.image-box{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+    width: 250px;
+    height: 350px;
+}
+
+.image-box h1,p{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+.image-box img{
+    width: 200px;
+    padding-top: 20px;
+}
+
+.image-box a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    font-style: none;
+
+}
+
+.fondo-purple{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #4a154b;
+    margin-bottom: 60px;
+}
+
+.fondo-purple h1{
+    text-align: center;
+    font-size: 26px;
+    margin: 20px;
+    color: white;
+}
+
+.botonuno button{
+    background-color: white;
+    height: 50px;
+    width: 350px;
+    border: none;
+    color: #4a154b;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.botondos button{
+    background-color: #4a154b;
+    height: 50px;
+    width: 350px;
+    color: white;
+    border-color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.logo-slack{
+    width: 100%;
+    margin: 20px;
+    margin-bottom: 40px;
+}
+
+.logo-slack img{
+    height: 60px;
+}
+
+footer .footer-first{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    padding-left: 30px;
+    list-style:none;
+    color: black;
+    margin-bottom: 50px;
+    border: 5px;
+    border-radius: 2px;
+}
+
+.footer-uno, .footer-dos, .footer-tres{
+    margin-right: 10px;
+    
+}
+
+footer h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+footer a{
+    text-decoration: none;
+    font-style: none;
+    font-size: 14px;
+}
+
+footer li{
+    margin-top: 20px;
+}
+
+.footer-second ul li{
+    list-style:none;
+    color: black;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
